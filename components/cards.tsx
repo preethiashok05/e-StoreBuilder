@@ -4,10 +4,10 @@ function Card(props:any) {
     
     return (
         <>
-         <div className="h-auto md:h-48 col-span-12 md:col-span-6 xl:col-span-4 border border-gray-600 rounded ">
+         <div className="md:h-52 col-span-12 md:col-span-6 xl:col-span-4 border border-gray-600 rounded ">
              <div className="grid grid-cols-12 order-last gap-4 px-3 lg:px-8 py-4 lg:py-6">
 
-                 <div className="col-span-12 md:col-span-8 flex flex-col justify-between h-36">
+                 <div className="col-span-12 md:col-span-8 flex flex-col justify-between h-26">
                      <p className="text-xl font-semibold">{props.title}</p>
                      <p className="flex-auto pt-1">Sizes : S | M | XL</p>
                      <div className="flex flex-row gap-4 items-center">
