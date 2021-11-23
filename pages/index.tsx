@@ -121,13 +121,13 @@ export default function Home() {
             <FeaturedOffer Image={"https://cdn3.mydukaan.io/app/image/489x280/?url=https://dukaan-us.s3.amazonaws.com/5146415/e9966f63-6d90-4c2e-95f7-480a3015c9eb/image-527ff8ef-f2f7-4660-8327-92319cf51017.png"}/>
           </div>
         </div>
-        <div className="px-4 lg:px-24">
-            <div className="grid grid-cols-12  gap-x-6 gap-y-8 p-2 lg:p-12">
-            {FeaturedProducts.map((item: any) => (
-                <Card {...item}/>
-            ))}
-            </div> 
+       
+          <div className="grid grid-cols-12  gap-x-6 gap-y-8 p-2 lg:p-12">
+          {FeaturedProducts.map((item: any) => (
+              <Card {...item}/>
+          ))}
         </div>
+
         <WhatsappFab/>
         <Footer/>
       </main>
