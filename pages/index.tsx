@@ -128,8 +128,9 @@ export default function Home() {
           ))}
         </div>
 
-        <WhatsappFab/>
+        
         <Footer/>
+        <WhatsappFab/>
       </main>
       </div>
       
